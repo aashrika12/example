@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Newspaper</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: flex; /* flexible box */
+        }
+        .left {
+            width: 25%;
+            background: lightgray;
+        }
+        .right {
+            width: 75%;
+        }
+        iframe {
+            width: 100%;
+            height: 100vh; /* viewport height */
+        }
+        a {
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>GNITS NEWSLETTER</h1>
+    <p style="text-align: right;">31<sup>st</sup> July, 2026</p>
+    <div class="container">
+        <div class="left">
+            <h2>Articles</h2>
+            <a href="w1.html" target="frame">FIFA World Cup</a>
+        </div>
+        <div class="right">
+            <iframe name="frame"></iframe>
+        </div>
+    </div>
+</body>
+</html>
